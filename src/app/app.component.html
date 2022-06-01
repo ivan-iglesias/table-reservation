@@ -5,6 +5,7 @@
 </div>
 
 <div class="flex-container">
-  <card-restaurant></card-restaurant>
-  <card-restaurant></card-restaurant>
+  <div *ngFor="let restaurant of restaurants">
+    <card-restaurant></card-restaurant>
+  </div>
 </div>

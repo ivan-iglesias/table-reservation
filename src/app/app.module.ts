@@ -5,15 +5,15 @@ import { RouterModule } from '@angular/router';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
-import { CardRestaurantComponent } from './card-restaurant/card-restaurant.component';
 import { MaterialModule } from '../material.module';
+import { RestaurantCardComponent } from './restaurant-card/restaurant-card.component';
 import { RestaurantListComponent } from './restaurant-list/restaurant-list.component';
 import { RestaurantDetailComponent } from './restaurant-detail/restaurant-detail.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    CardRestaurantComponent,
+    RestaurantCardComponent,
     RestaurantListComponent,
     RestaurantDetailComponent
   ],

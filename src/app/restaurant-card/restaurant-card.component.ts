@@ -3,11 +3,11 @@ import { Component, OnInit, Input } from '@angular/core';
 import { Restaurant } from '../restaurant';
 
 @Component({
-  selector: 'card-restaurant',
-  templateUrl: './card-restaurant.component.html',
-  styleUrls: ['./card-restaurant.component.scss']
+  selector: 'restaurant-card',
+  templateUrl: './restaurant-card.component.html',
+  styleUrls: ['./restaurant-card.component.scss']
 })
-export class CardRestaurantComponent implements OnInit {
+export class RestaurantCardComponent implements OnInit {
 
   @Input() restaurant: Restaurant | undefined;
 

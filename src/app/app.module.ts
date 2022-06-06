@@ -21,11 +21,7 @@ import { RestaurantDetailComponent } from './restaurant-detail/restaurant-detail
     BrowserAnimationsModule,
     BrowserModule,
     AppRoutingModule,
-    MaterialModule,
-    RouterModule.forRoot([
-        { path: '', component: RestaurantListComponent },
-        { path: 'restaurants/:restaurantId', component: RestaurantDetailComponent },
-      ])
+    MaterialModule
   ],
   providers: [],
   bootstrap: [AppComponent]

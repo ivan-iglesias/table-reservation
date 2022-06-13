@@ -1,1 +1,15 @@
-<p>restaurant-detail works!</p>
+<div *ngIf="restaurant">
+
+  <div class="banner">
+    <img mat-card-image src="assets/img/{{ restaurant.banner }}" alt="Photo of {{ restaurant.name }} restaurant">
+  </div>
+
+  <div class="details">
+
+    <h1>{{ restaurant.name }}</h1>
+    <p>{{ restaurant.priceRange }}</p>
+    <p>{{ restaurant.description }}</p>
+
+    <p>Maecenas mattis auctor mollis. Aliquam molestie dolor eget dignissim dapibus. Sed a faucibus leo. Proin laoreet molestie rhoncus. In consequat lacus nec odio hendrerit, nec porta augue mattis. Duis mattis sapien id metus tempor aliquet. Curabitur nisl magna, consectetur et elit quis, pretium suscipit sem. Pellentesque ut tempus felis. Sed suscipit porta urna ut efficitur. Donec risus neque, maximus et posuere sit amet, euismod et tellus. </p>
+  </div>
+</div>

@@ -15,4 +15,8 @@ export class RestaurantService {
   getRestaurants() {
     return this.items;
   }
+
+  find(restaurantId: number) {
+    return this.items.find(item => item.id === restaurantId);
+  }
 }
